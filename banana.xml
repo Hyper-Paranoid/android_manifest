@@ -55,22 +55,30 @@
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="banana" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="banana" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="banana" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="banana" />
+  <project path="external/dtc" name="android_external_dtc" remote="banana" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
+  <project path="external/freetype" name="android_external_freetype" remote="banana" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
+  <project path="external/honggfuzz" name="android_external_honggfuzz" remote="banana" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
+  <project path="external/libpng" name="android_external_libpng" remote="banana" />
   <project path="external/openssh" name="android_external_openssh" remote="banana" />
   <project path="external/pulse" name="android_external_pulse" remote="banana" />
+  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="banana" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="banana" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="banana" />
   <project path="frameworks/base" name="android_frameworks_base" remote="banana" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="banana" />
+  <project path="frameworks/libs/native_bridge_support" name="android_frameworks_libs_native_bridge_support" remote="banana" />
   <project path="frameworks/native" name="android_frameworks_native" remote="banana" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="banana" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="banana" />
@@ -89,6 +97,8 @@
   <project path="hardware/qcom-caf/sdm660/audio" name="ArrowOS/android_hardware_qcom_audio" revision="arrow-11.0-caf-sdm660" remote="github" />
   <project path="hardware/qcom-caf/sdm660/display" name="ArrowOS/android_hardware_qcom_display" revision="arrow-11.0-caf-sdm660" remote="github" />
   <project path="hardware/qcom-caf/sdm660/media" name="ArrowOS/android_hardware_qcom_media" revision="arrow-11.0-caf-sdm660" remote="github" />
+
+  <project path="hardware/ril" name="android_hardware_ril" remote="banana" />
 
   <!-- Packages -->
   <project path="packages/apps/BananaGear" name="android_packages_apps_BananaGear" remote="banana" />
@@ -122,6 +132,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="banana" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="banana" />
   <project path="prebuilts/clang/host/linux-x86" name="AOSPA/android_prebuilts_clang_host_linux-x86" remote="github" revision="ruby" clone-depth="1" />
 
   <!-- System -->
@@ -129,6 +140,7 @@
   <project path="system/bpf" name="android_system_bpf" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/keymaster" name="android_system_keymaster" remote="banana" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="banana" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
   <project path="system/security" name="android_system_security" remote="banana" />
@@ -148,6 +160,7 @@
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="banana" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="banana" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="banana" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="banana" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="banana" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="banana" />
