@@ -121,6 +121,9 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="banana" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="AOSPA/android_prebuilts_clang_host_linux-x86" remote="github" revision="ruby" clone-depth="1" />
+
   <!-- System -->
   <project path="system/apex" name="android_system_apex" remote="banana" />
   <project path="system/bpf" name="android_system_bpf" remote="banana" />
