@@ -60,8 +60,10 @@
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
+  <project path="external/freetype" name="android_external_freetype" remote="banana" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
+  <project path="external/libpng" name="android_external_libpng" remote="banana" />
   <project path="external/openssh" name="android_external_openssh" remote="banana" />
   <project path="external/pulse" name="android_external_pulse" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
