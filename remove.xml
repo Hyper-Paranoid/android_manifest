@@ -77,7 +77,6 @@
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
-  <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/freetype" />
@@ -99,7 +98,6 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/rs" />
 
 <!--  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" /> -->
@@ -178,11 +176,8 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
-  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
